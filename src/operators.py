@@ -30,6 +30,6 @@ def divide(a,b):
     """
     Réalise la division 
     Paramètre : a, b => ici ce n'est pas un type en particulier 
-    Retourne: le resultat de l'addition a/b (peut être un float si on force a et b comme dans le cas de )
+    Retourne: le resultat de la division a/b (peut être un float si on force a et b comme dans le cas de )
     """
-    return a // b
+    return a / b
