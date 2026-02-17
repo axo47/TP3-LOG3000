@@ -39,10 +39,7 @@ python app.py
 ## 6 
 Une fois l'application construite : tu peux l'executer comme une calculatrice normal.
 
-
-
-TO DO NE PAS OUBlIER CECI
-# Une section sur les tests (comment exécuter les tests que vous ajouterez plus
-tard).
+# Section sur les tests
+Se référer au readme dans le repertoire de test qui couvre cette partie
 
 # Une section sur le flux de contribution (branches, PR, issues).
