@@ -41,8 +41,8 @@ Une fois l'application construite : tu peux l'executer comme une calculatrice no
 
 
 
+TO DO NE PAS OUBlIER CECI
+# Une section sur les tests (comment exécuter les tests que vous ajouterez plus
+tard).
 
-
-
-
-▪ Une section sur le flux de contribution (branches, PR, issues).
+# Une section sur le flux de contribution (branches, PR, issues).
