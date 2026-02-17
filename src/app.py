@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template
-from operators import add, subtract, multiply, divide
+from src.operators import add, subtract, multiply, divide
 
 app = Flask(__name__)
 
@@ -11,6 +11,16 @@ OPS = {
 }
 
 def calculate(expr: str):
+    """
+    Calcule l'expression selon les opérations d'addition, 
+    de soustraction , de multiplication et de division
+
+    Paramètres l'expresision (ex: a+b)
+
+    Il va prendre le a et le b et les transformer en float 
+
+    Retourne: un float qui est le resultat de l'opération
+    """
     if not expr or not isinstance(expr, str):
         raise ValueError("empty expression")
 
@@ -43,6 +53,11 @@ def calculate(expr: str):
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
+    """
+    Middleware vérifiant les différents requête http executé 
+    Paramètres : rien
+    Retourne: un float si la méthode de la requet est post (appelle la fonction calculate) ou rien si c'est un autre type de requête.
+    """
     result = ""
     if request.method == 'POST':
         expression = request.form.get('display', '')
