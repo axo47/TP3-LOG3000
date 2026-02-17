@@ -24,7 +24,7 @@ def multiply(a,b):
     Paramètre : a, b => ici ce n'est pas un type en particulier 
     Retourne: le resultat de l'addition a*b (peut être un float si on force a et b comme dans le cas de )
     """
-    return a ** b
+    return a * b
 
 def divide(a,b):
     """
