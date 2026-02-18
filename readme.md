@@ -1,3 +1,15 @@
+- **Nom du projet** : Devoir #3
+- **Numéro d’équipe** : 14
+- **Objectif** : Développer un site web qui simule une application de calculatrice 
+
+- **Prérequis d’installation** : 
+    - Télécharger Python
+    - Télécharger pip
+
+
+
+
+
 # Description du but
 L'application est une calculatrice servant à calculer des multiplications , additions, soustraction, division.
 
