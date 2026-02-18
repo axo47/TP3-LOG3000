@@ -49,9 +49,10 @@ venv\Scripts\activate
 
 ```pip install -r requirements.txt ```
 
-#4 Execute la ligne de code suivant :  
+#4 Execute les deux lignes de code suivant :  
 ```
 cd src 
+cd backend
 ``` 
 
 #5 Une fois que cela est fait, nous pouvons executer la ligne de code suivante  
