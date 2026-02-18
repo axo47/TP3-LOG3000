@@ -7,9 +7,6 @@
     - Télécharger pip
 
 
-
-
-
 # Description du but
 L'application est une calculatrice servant à calculer des multiplications , additions, soustraction, division.
 

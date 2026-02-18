@@ -1,4 +1,6 @@
 from flask import Flask, request, render_template
+# src.backend.operators a été ajouté ainsi que les __init__.py 
+# En fait nous utilisons le chemin absolue afin d'éviter les erreur
 from src.backend.operators import add, subtract, multiply, divide
 
 app = Flask(
