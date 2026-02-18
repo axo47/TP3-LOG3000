@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template
-from src.operators import add, subtract, multiply, divide
+from src.backend.operators import add, subtract, multiply, divide
 
 app = Flask(
     __name__, template_folder="front-end/templates", static_folder="front-end/static"

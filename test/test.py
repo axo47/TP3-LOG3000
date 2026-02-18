@@ -1,5 +1,5 @@
-from src.app import app, calculate
-from src.operators import add, subtract, multiply, divide
+from src.backend.app import app, calculate
+from src.backend.operators import add, subtract, multiply, divide
 import pytest
 
 def test_add():
