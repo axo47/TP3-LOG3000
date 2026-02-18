@@ -6,4 +6,4 @@ app.py : récupère la requête http réalisé par le serveur et si c'est une re
 operators.py : défini les différents opérateurs qui seront utilisé dans la calculatrice
 
 # Hypothèse et dépendance 
-Aucune 
+Nous avons la dépendance de ```Flusk``` qui est une librairie python.

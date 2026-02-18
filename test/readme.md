@@ -1,9 +1,16 @@
 # 1 Comment executer les test
-Voici les étapes : 
-#1 Allumer le terminal et  Aller dans le répertoire test à l'aide de la commande 
-    cd test
+Voici les étapes
 
-#2 Executer la ligne de commande suivante : python -m pytest test/test.py
+#1 Allumer le terminal et  Aller dans le répertoire test à l'aide de la commande 
+```
+cd test
+```
+#2 Executer la ligne de commande suivante : 
+```
+python -m pytest test/test.py
+```
+
+
 NB : vérifier bien d'avoir activer le fichier venv (voir le readme principale à cette effet)
 
 
