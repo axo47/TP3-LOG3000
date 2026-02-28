@@ -21,7 +21,7 @@ De plus, nous sommes capable de jouer avec les différents éléments mathémati
 - Les nombres naturels (représentés par des int) de [0,inf)
 - Les nombres réels (représentés par les float) de (-inf,inf)
 
-# Guide d’installation clair (étape par étape)
+# Guide d’installation clair (étape par étape) et instructions d'utilisation
 
 Voici les étapes une à une afin de pouvoir lancer l'application
 
@@ -57,7 +57,7 @@ cd backend
 python app.py
  ```
 
-#6 Une fois l'application construite, l'utiliser comme une calculatrice normal.
+#6 Une fois l'application construite, l'utiliser comme une calculatrice normale.
 
 # Section sur les tests
 Se référer au readme dans le répertoire de test qui couvre cette partie
@@ -82,4 +82,4 @@ Nous avons fait une branche pour chaque issue à corriger. Certaines corrections
 - fix/test_calculate_sub : corrige le test test_calculate_sub
 - fix/flask-server : corrige le problème du serveur flask lors du démarage de celui-ci.
 
-En ce qui concerne les pull request, elles sont assignées à un ou deux membres de l'équipe qui n'nont pas travaillés sur la branche à merge.
+En ce qui concerne les pull request, elles ont été assignées à un ou deux membres de l'équipe qui n'ont pas travaillés sur la branche à merge.
