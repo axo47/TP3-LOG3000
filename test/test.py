@@ -4,7 +4,7 @@ import pytest
 
 def test_add():
     """
-    But : vérifier l'entré/sortie de la fonction d'addition
+    But : Vérifier l'entrée/sortie de la fonction d'addition
     """
     assert add(2,3) == 5
 
@@ -16,7 +16,7 @@ def test_add0():
 
 def test_sub():
     """
-    But : vérifier l'entré/sortie de la fonction de soustraction
+    But : Vérifier l'entrée/sortie de la fonction de soustraction
     """
     assert subtract(2,3) == -1
 
@@ -28,7 +28,7 @@ def test_sub0():
 
 def test_mul():
     """
-    But : vérifier l'entré/sortie de la fonction de multiplication 
+    But : Vérifier l'entrée/sortie de la fonction de multiplication 
     """
     assert multiply(2,3) == 6
 
@@ -40,7 +40,7 @@ def test_mul0():
 
 def test_div():
     """
-    But : vérifier l'entré/sortie de la fonction de division 
+    But : Vérifier l'entrée/sortie de la fonction de division 
     """
     assert divide(2,3) == 2/3
 
@@ -53,24 +53,24 @@ def test_div0():
 
 def test_calculate_add():
     """
-    But : vérifier l'execution de calculate pour l'addition
+    But : Vérifier l'execution de calculate pour l'addition
     """
     assert calculate("10+5") == 15
 
 def test_calculate_mul():
     """
-    But : vérifier l'execution de calculate pour la multiplication
+    But : Vérifier l'execution de calculate pour la multiplication
     """
     assert calculate("10*5") == 50
 
 def test_calculate_div():
     """
-    But : vérifier l'execution de calculate pour la division
+    But : Vérifier l'execution de calculate pour la division
     """
     assert calculate("10/5") == 2
 
 def test_calculate_sub():
     """
-    But : vérifier l'execution de calculate pour la soustraction
+    But : Vérifier l'execution de calculate pour la soustraction
     """
     assert calculate("10-5") == 5

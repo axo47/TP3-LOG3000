@@ -18,11 +18,7 @@ def calculate(expr: str):
     """
     Calcule l'expression selon les opérations d'addition, 
     de soustraction , de multiplication et de division
-
-    Paramètres l'expresision (ex: a+b)
-
-    Il va prendre le a et le b et les transformer en float 
-
+    Paramètres: une string qui représente une expression mathématique simple (ex: "3 + 4")
     Retourne: un float qui est le resultat de l'opération
     """
     if not expr or not isinstance(expr, str):
@@ -58,9 +54,9 @@ def calculate(expr: str):
 @app.route('/', methods=['GET', 'POST'])
 def index():
     """
-    Middleware vérifiant les différents requête http executé 
+    Middleware vérifiant les différentes requêtes HTTP exécutées 
     Paramètres : rien
-    Retourne: un float si la méthode de la requet est post (appelle la fonction calculate) ou rien si c'est un autre type de requête.
+    Retourne: un float si la méthode de la requête est POST (appelle la fonction calculate) ou rien si c'est un autre type de requête.
     """
     result = ""
     if request.method == 'POST':

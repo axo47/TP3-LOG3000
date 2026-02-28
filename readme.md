@@ -8,7 +8,7 @@
 
 
 # Description du but
-L'application est une calculatrice servant à calculer des multiplications , additions, soustraction, division.
+L'application est une calculatrice servant à calculer des multiplications , additions, soustractions, divisions.
 
 # La portée du projet
 L'application permet à l'utilisateur d'effectuer les opérations arithmétiques de base :
@@ -18,12 +18,12 @@ L'application permet à l'utilisateur d'effectuer les opérations arithmétiques
 - Division
 
 De plus, nous sommes capable de jouer avec les différents éléments mathématique suivants : 
-- Les nombre naturel (représenté par des int) de [0,inf)
-- Les nombre Réel (représenté par les float) de (-inf,inf)
+- Les nombres naturels (représentés par des int) de [0,inf)
+- Les nombres réels (représentés par les float) de (-inf,inf)
 
 # Guide d’installation clair (étape par étape)
 
-Voici les étapes un à un afin de pouvoir lancer l'application
+Voici les étapes une à une afin de pouvoir lancer l'application
 
 #1 Créer un venv à partir de la ligne de commande suivante  
 
@@ -42,7 +42,7 @@ source venv/bin/activate
 venv\Scripts\activate  
 ```
 
-#3 Installer les différentes dépendance avec la ligne de commande suivante  
+#3 Installer les différentes dépendances avec la ligne de commande suivante  
 
 ```pip install -r requirements.txt ```
 
@@ -52,29 +52,29 @@ cd src
 cd backend
 ``` 
 
-#5 Une fois que cela est fait, nous pouvons executer la ligne de code suivante  
+#5 Une fois que cela est fait, executer la ligne de code suivante  
 ``` 
 python app.py
  ```
 
-#6 Une fois l'application construite : tu peux l'executer comme une calculatrice normal.
+#6 Une fois l'application construite, l'utiliser comme une calculatrice normal.
 
 # Section sur les tests
-Se référer au readme dans le repertoire de test qui couvre cette partie
+Se référer au readme dans le répertoire de test qui couvre cette partie
 
 # Section sur le flux de contribution (branches, PR, issues)
 
-Nous avons en fait pour chaque test échoue un isssues. De ce fait, on a eu les 7 issues suivants :
+Nous avons fait pour chaque test échoué une isssue. De ce fait, nous avons créé les 7 issues suivantes :
 
 - Bug : Le serveur Flask retourne une erreur 500
 - Bug : Le test de calculer l'expression soustraction (test_calculate_sub) échoue
-- Bug : Le test pour calculer la multiplication(test_calculate_mul) échoue
-- Bug : le test de multiplication par 0 (test_mul0)échoue
+- Bug : Le test de calculer la multiplication(test_calculate_mul) échoue
+- Bug : le test de multiplication par 0 (test_mul0) échoue
 - Bug : le test de division (test_div) échoue
 - Bug : le test de multiplication (test_mul) échoue
-- Bug : le test de substraction (test_sub) échoue
+- Bug : le test de soustraction (test_sub) échoue
 
-On a fait une branche pour chaque issues à corriger. Le problème, c'est que certains corrections corriger d'autres bug en même temps. Nous avons eu une problématique en plus lié au démarage de l'application avec notre nouvelle aménagement de fichier. De ce fait nous avons 5 branches à notre actif :
+Nous avons fait une branche pour chaque issue à corriger. Certaines corrections ont corrigées d'autres bugs en même temps. Nous avons eu une problématique en plus lié au démarage de l'application avec notre nouvelle aménagement de fichier. De ce fait nous avons 5 branches à notre actif :
 
 - main : la branche par défaut
 - fix/test_mul0 : corrige le test test_mul0
@@ -82,4 +82,4 @@ On a fait une branche pour chaque issues à corriger. Le problème, c'est que ce
 - fix/test_calculate_sub : corrige le test test_calculate_sub
 - fix/flask-server : corrige le problème du serveur flask lors du démarage de celui-ci.
 
-En ce qui concerne les pull request : ils sont assigné soit à une personne de l'équipe en excluant celui qui était entrain de programmer sur cette branche ou les deux autres personnes de l'équipe qui n'ont pas travaillé sur cette branche.
+En ce qui concerne les pull request, elles sont assignées à un ou deux membres de l'équipe qui n'nont pas travaillés sur la branche à merge.
