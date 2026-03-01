@@ -46,15 +46,9 @@ venv\Scripts\activate
 
 ```pip install -r requirements.txt ```
 
-#4 Execute les deux lignes de code suivant :  
-```
-cd src 
-cd backend
+#4 Une fois que cela est fait, executer la ligne de code suivante  
 ``` 
-
-#5 Une fois que cela est fait, executer la ligne de code suivante  
-``` 
-python app.py
+python -m src.backend.app
  ```
 
 #6 Une fois l'application construite, l'utiliser comme une calculatrice normale.
