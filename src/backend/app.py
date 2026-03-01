@@ -1,17 +1,11 @@
-import os
 from flask import Flask, request, render_template
 # src.backend.operators a été ajouté ainsi que les __init__.py 
 # En fait nous utilisons le chemin absolue afin d'éviter les erreur
-from operators import add, subtract, multiply, divide
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+from src.backend.operators import add, subtract, multiply, divide
 
 app = Flask(
-    __name__,
-    template_folder=os.path.join(BASE_DIR, "..", "front-end", "templates"),
-    static_folder=os.path.join(BASE_DIR, "..", "front-end", "static")
+    __name__, template_folder="front-end/templates", static_folder="front-end/static"
 )
-
 
 OPS = {
     '+': add,
